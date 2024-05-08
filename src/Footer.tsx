@@ -153,7 +153,7 @@ export default function Footer() {
                         <Link color="text.secondary" href="/legal/terms">
                             Terms of Service
                         </Link>
-                        <Copyright sx={{ py: 2, fontSize: '0.875rem' }} />
+                        <Copyright sx={{ py: 1, fontSize: '0.875rem' }} />
                     </Box>
 
                     <Stack
