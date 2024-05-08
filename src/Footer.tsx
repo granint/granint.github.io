@@ -5,9 +5,10 @@ import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import IconButton from "@mui/material/IconButton";
+import EmailIcon from '@mui/icons-material/Email';
 import GithubIcon from '@mui/icons-material/GitHub';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
     return (
@@ -55,6 +56,9 @@ export default function Footer() {
                         </Typography>
                         <Typography>
                             服务时间：8:00 - 24:00
+                        </Typography>
+                        <Typography>
+                            邮箱地址:support@granint.com
                         </Typography>
                     </Box>
                     <Box
@@ -149,7 +153,7 @@ export default function Footer() {
                         <Link color="text.secondary" href="/legal/terms">
                             Terms of Service
                         </Link>
-                        <Copyright />
+                        <Copyright sx={{ py: 2, fontSize: '0.875rem' }} />
                     </Box>
 
                     <Stack
@@ -163,7 +167,16 @@ export default function Footer() {
                     >
                         <IconButton
                             color="inherit"
+                            href="mailto:support@granint.com"
+                            aria-label="GitHub"
+                            sx={{ alignSelf: 'center' }}
+                        >
+                            <EmailIcon />
+                        </IconButton>
+                        <IconButton
+                            color="inherit"
                             href="https://github.com/granint"
+                            target="_blank"
                             aria-label="GitHub"
                             sx={{ alignSelf: 'center' }}
                         >

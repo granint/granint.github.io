@@ -1,9 +1,9 @@
 import Typography from "@mui/material/Typography";
 
-function Copyright() {
+function Copyright(props: any) {
     const year = new Date().getFullYear()
     return (
-        <Typography >
+        <Typography {...props}>
             {`© ${year === 2024 ? '2024' : `2024 - ${year}`} Granint 版权所有`}
         </Typography>
     );
