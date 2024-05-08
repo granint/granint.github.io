@@ -10,6 +10,17 @@ import NotFound from './NotFound';
 import Privacy from './legal/Privacy';
 import Footer from './Footer';
 import Terms from './legal/Terms';
+import SignIn from './SignIn';
+import SignUp from './SignUp';
+
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/signin', element: <SignIn /> },
+  { path: '/signup', element: <SignUp /> },
+  { path: '/legal/privacy', element: <Privacy /> },
+  { path: '/legal/terms', element: <Terms /> },
+  { path: '*', element: <NotFound /> },
+]
 
 function App() {
   return (
@@ -18,10 +29,11 @@ function App() {
       <Box>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/legal/privacy" element={<Privacy />} />
-            <Route path="/legal/terms" element={<Terms />} />
-            <Route path="*" element={<NotFound />}></Route>
+            {
+              routes.map(item => {
+                return <Route path={item.path} element={item.element} />
+              })
+            }
           </Routes>
         </BrowserRouter>
         <Footer />
