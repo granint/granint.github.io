@@ -1,36 +1,29 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Box from '@mui/material/Box';
-import Footer from './Footer';
-import FAQ from './FAQ';
-import Hero from './Hero';
 import ThemeProvider from '@mui/material/styles/ThemeProvider';
 import { CssBaseline, createTheme } from '@mui/material';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import NotFound from './NotFound';
+import Privacy from './legal/Privacy';
+import Footer from './Footer';
+import Terms from './legal/Terms';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.tsx</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
     <ThemeProvider theme={createTheme()}>
       <CssBaseline />
       <Box>
-        <Hero />
-        <FAQ />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/legal/privacy" element={<Privacy />} />
+            <Route path="/legal/terms" element={<Terms />} />
+            <Route path="*" element={<NotFound />}></Route>
+          </Routes>
+        </BrowserRouter>
         <Footer />
       </Box>
     </ThemeProvider>
