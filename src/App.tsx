@@ -4,7 +4,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import ThemeProvider from '@mui/material/styles/ThemeProvider';
 import { CssBaseline, createTheme } from '@mui/material';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import NotFound from './NotFound';
 import Privacy from './legal/Privacy';
@@ -27,7 +27,7 @@ function App() {
     <ThemeProvider theme={createTheme()}>
       <CssBaseline />
       <Box>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             {
               routes.map(item => {
@@ -35,7 +35,7 @@ function App() {
               })
             }
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         <Footer />
       </Box>
     </ThemeProvider>

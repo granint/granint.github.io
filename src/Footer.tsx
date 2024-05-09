@@ -144,13 +144,13 @@ export default function Footer() {
                     }}
                 >
                     <Box>
-                        <Link color="text.secondary" href="/legal/privacy">
+                        <Link color="text.secondary" href="#/legal/privacy">
                             Privacy Policy
                         </Link>
                         <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
                             &nbsp;•&nbsp;
                         </Typography>
-                        <Link color="text.secondary" href="/legal/terms">
+                        <Link color="text.secondary" href="#/legal/terms">
                             Terms of Service
                         </Link>
                         <Copyright sx={{ py: 1, fontSize: '0.875rem' }} />

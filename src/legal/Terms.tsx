@@ -11,7 +11,7 @@ export default function Terms() {
                 <Breadcrumbs aria-label="breadcrumb">
                     <Link href='/'>首页</Link>
                     <Link href='/legal'>法律</Link>
-                    <Typography>条款服务</Typography>
+                    <Typography>服务条款</Typography>
                 </Breadcrumbs>
             </Container>
         </Box>

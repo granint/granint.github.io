@@ -9,8 +9,8 @@ export default function Privacy() {
         <Box>
             <Container>
                 <Breadcrumbs aria-label="breadcrumb">
-                    <Link href='/'>首页</Link>
-                    <Link href='/legal'>法律</Link>
+                    <Link href='#/'>首页</Link>
+                    <Link href='#/legal'>法律</Link>
                     <Typography>隐私政策</Typography>
                 </Breadcrumbs>
             </Container>
