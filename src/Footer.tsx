@@ -49,16 +49,16 @@ export default function Footer() {
                             地址
                         </Typography>
                         <Typography>
-                            四川省内江市威远县观英滩镇
+                            四川省威远县观英滩镇归沙路界牌上行50米
                         </Typography>
                         <Typography>
-                            联系电话：(0832)8050764
+                            电话：(0832)8050764
                         </Typography>
-                        <Typography>
+                        {/* <Typography>
                             服务时间：8:00 - 24:00
-                        </Typography>
+                        </Typography> */}
                         <Typography>
-                            邮箱地址:support@granint.com
+                            邮箱：support@granint.com
                         </Typography>
                     </Box>
                     <Box
