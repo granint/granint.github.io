@@ -9,6 +9,9 @@ import EmailIcon from '@mui/icons-material/Email';
 import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWeixin, faWeibo } from "@fortawesome/free-brands-svg-icons";
+import { Tooltip } from "@mui/material";
 
 export default function Footer() {
     return (
@@ -16,6 +19,7 @@ export default function Footer() {
             sx={{
                 bgcolor: '#f8f9fa !important',
                 // color: 'rgba(255,255,255,.15)',
+                mt: 'auto',
             }}
         >
             <Container
@@ -49,7 +53,7 @@ export default function Footer() {
                             地址
                         </Typography>
                         <Typography>
-                            四川省威远县观英滩镇归沙路界牌上行50米
+                            四川省威远县观英滩镇归沙路界牌（资中威远交界）上行100米
                         </Typography>
                         <Typography>
                             电话：(0832)8050764
@@ -168,7 +172,7 @@ export default function Footer() {
                         <IconButton
                             color="inherit"
                             href="mailto:support@granint.com"
-                            aria-label="GitHub"
+                            aria-label="Email"
                             sx={{ alignSelf: 'center' }}
                         >
                             <EmailIcon />
@@ -182,11 +186,41 @@ export default function Footer() {
                         >
                             <GithubIcon />
                         </IconButton>
+                        <Tooltip
+                            title={
+                                <Box component='img'
+                                    src='/logo192.png'
+                                    alt="WeChat QR Code"
+                                    sx={{ width: 120, height: 120 }}
+                                />
+                            }
+                            placement="top"
+                        >
+                            <IconButton
+                                disabled
+                                color="inherit"
+                                // href="https://github.com/mui"
+                                aria-label="Weixin"
+                                sx={{ alignSelf: 'center' }}
+                            >
+                                <FontAwesomeIcon icon={faWeixin} />
+                            </IconButton>
+                        </Tooltip>
+                        <IconButton
+                            disabled
+                            color="inherit"
+                            href="https://weibo.com/granint"
+                            target="_blank"
+                            aria-label="Weibo"
+                            sx={{ alignSelf: 'center' }}
+                        >
+                            <FontAwesomeIcon icon={faWeibo} />
+                        </IconButton>
                         <IconButton
                             disabled
                             color="inherit"
                             href="https://github.com/mui"
-                            aria-label="GitHub"
+                            aria-label="YouTube"
                             sx={{ alignSelf: 'center' }}
                         >
                             <YouTubeIcon />
@@ -195,7 +229,7 @@ export default function Footer() {
                             disabled
                             color="inherit"
                             href="https://github.com/mui"
-                            aria-label="GitHub"
+                            aria-label="LinkedIn"
                             sx={{ alignSelf: 'center' }}
                         >
                             <LinkedInIcon />
