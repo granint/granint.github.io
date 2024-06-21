@@ -12,11 +12,13 @@ import Footer from './Footer';
 import Terms from './legal/Terms';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
+import Shop from './Shop';
 
 const routes = [
   { path: '/', element: <Home /> },
   { path: '/signin', element: <SignIn /> },
   { path: '/signup', element: <SignUp /> },
+  { path: '/shop', element: <Shop /> },
   { path: '/legal/privacy', element: <Privacy /> },
   { path: '/legal/terms', element: <Terms /> },
   { path: '*', element: <NotFound /> },
@@ -26,7 +28,13 @@ function App() {
   return (
     <ThemeProvider theme={createTheme()}>
       <CssBaseline />
-      <Box>
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100vh',
+        }}
+      >
         <HashRouter>
           <Routes>
             {
