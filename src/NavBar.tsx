@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { PaletteMode } from '@mui/material';
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,11 +10,11 @@ import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const logoStyle = {
-  width: '140px',
-  height: 'auto',
-  cursor: 'pointer',
-};
+// const logoStyle = {
+//   width: '140px',
+//   height: 'auto',
+//   cursor: 'pointer',
+// };
 
 const navItems = [
   { text: '特色', value: 'features' },

@@ -36,7 +36,6 @@ function App() {
           minHeight: '100vh',
         }}
       >
-        <NavBar />
         <HashRouter>
           <Routes>
             {
