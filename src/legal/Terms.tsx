@@ -10,7 +10,7 @@ export default function Terms() {
             <Container>
                 <Breadcrumbs aria-label="breadcrumb">
                     <Link href='/'>首页</Link>
-                    <Link href='/legal'>法律</Link>
+                    <Typography>法律</Typography>
                     <Typography>服务条款</Typography>
                 </Breadcrumbs>
             </Container>

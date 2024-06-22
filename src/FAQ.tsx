@@ -53,7 +53,7 @@ export default function FAQ() {
                             id="panel1d-header"
                         >
                             <Typography component="h3" variant="subtitle2">
-                                How do I contact customer support if I have a question or issue?
+                                如果我有疑问或遇到问题，如何联系客户支持？
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -62,10 +62,10 @@ export default function FAQ() {
                                 gutterBottom
                                 sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                             >
-                                You can reach our customer support team by emailing
+                                您可以通过发送电子邮件至
                                 <Link> support@granint.com </Link>
-                                or calling our toll-free number. We&apos;re here to assist you
-                                promptly.
+                                或拨打我们的免费电话联系客户支持团队。
+                                我们会及时为您提供帮助。
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -79,7 +79,7 @@ export default function FAQ() {
                             id="panel2d-header"
                         >
                             <Typography component="h3" variant="subtitle2">
-                                Can I return the product if it doesn&apos;t meet my expectations?
+                                如果产品不符合我的期望，我可以退货吗？
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -88,9 +88,9 @@ export default function FAQ() {
                                 gutterBottom
                                 sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                             >
-                                Absolutely! We offer a hassle-free return policy. If you&apos;re not
-                                completely satisfied, you can return the product within [number of
-                                days] days for a full refund or exchange.
+                                当然可以！
+                                我们提供无忧退换货政策。
+                                如果您不完全满意，您可以在7天内退回商品，以获得全额退款或换货。
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -104,7 +104,7 @@ export default function FAQ() {
                             id="panel3d-header"
                         >
                             <Typography component="h3" variant="subtitle2">
-                                What makes your product stand out from others in the market?
+                                您的产品与市场上其他产品相比有何独特之处？
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -113,9 +113,8 @@ export default function FAQ() {
                                 gutterBottom
                                 sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                             >
-                                Our product distinguishes itself through its adaptability, durability,
-                                and innovative features. We prioritize user satisfaction and
-                                continually strive to exceed expectations in every aspect.
+                                我们的产品以其高度适应性、耐用性和创新功能脱颖而出。
+                                我们优先考虑用户满意度，并始终努力在各个方面超越期望。
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -129,7 +128,7 @@ export default function FAQ() {
                             id="panel4d-header"
                         >
                             <Typography component="h3" variant="subtitle2">
-                                Is there a warranty on the product, and what does it cover?
+                                产品是否有保修期？保修范围包括哪些内容？
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -138,10 +137,9 @@ export default function FAQ() {
                                 gutterBottom
                                 sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                             >
-                                Yes, our product comes with a [length of warranty] warranty. It covers
-                                defects in materials and workmanship. If you encounter any issues
-                                covered by the warranty, please contact our customer support for
-                                assistance.
+                                是的，我们的产品提供一年（特殊商品除外）的保修服务。
+                                它涵盖了材料缺陷和工艺问题。
+                                如果您遇到任何保修范围内的问题，请联系我们的客户支持寻求帮助。
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
