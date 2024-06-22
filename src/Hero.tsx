@@ -68,11 +68,11 @@ export default function Hero() {
                             hiddenLabel
                             size="small"
                             variant="outlined"
-                            aria-label="Enter your email address"
+                            aria-label="输入您的邮箱地址"
                             placeholder="您的邮箱地址"
                             inputProps={{
                                 autocomplete: 'off',
-                                ariaLabel: 'Enter your email address',
+                                ariaLabel: '输入您的邮箱地址',
                             }}
                         />
                         <Button variant="contained" color="primary">

@@ -90,7 +90,7 @@ export default function FAQ() {
                             >
                                 当然可以！
                                 我们提供无忧退换货政策。
-                                如果您不完全满意，您可以在7天内退回商品，以获得全额退款或换货。
+                                如果您不完全满意，您可以在『7天』内退回商品，以获得全额退款或换货。
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -137,7 +137,7 @@ export default function FAQ() {
                                 gutterBottom
                                 sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                             >
-                                是的，我们的产品提供一年（特殊商品除外）的保修服务。
+                                是的，我们的产品提供『1年』（特殊商品除外）的保修服务。
                                 它涵盖了材料缺陷和工艺问题。
                                 如果您遇到任何保修范围内的问题，请联系我们的客户支持寻求帮助。
                             </Typography>
