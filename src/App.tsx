@@ -12,7 +12,6 @@ import Footer from './Footer';
 import Terms from './legal/Terms';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
-import NavBar from './NavBar';
 import Shop from './Shop';
 
 const routes = [
