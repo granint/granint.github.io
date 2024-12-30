@@ -4,7 +4,7 @@ function Copyright(props: any) {
     const year = new Date().getFullYear()
     return (
         <Typography {...props}>
-            {`© ${year === 2024 ? '2024' : `2024 - ${year}`} granint.com 版权所有`}
+            {`© ${year === 2024 ? '2024' : `2024 - ${year}`} Granint 版权所有`}
         </Typography>
     );
 }
