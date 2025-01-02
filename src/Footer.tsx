@@ -50,7 +50,7 @@ export default function Footer() {
                         }}
                     >
                         <Typography variant="body2" fontWeight={600}>
-                            地址
+                            总部地址
                         </Typography>
                         <Typography>
                             四川省威远县观英滩镇归沙路界牌（资中威远交界）上行100米
