@@ -56,7 +56,7 @@ export default function Footer() {
                             四川省威远县观英滩镇归沙路界牌（资中威远交界）上行100米
                         </Typography>
                         <Typography>
-                            电话：18081001806
+                            电话：(0832)8050764
                         </Typography>
                         {/* <Typography>
                             服务时间：8:00 - 24:00
