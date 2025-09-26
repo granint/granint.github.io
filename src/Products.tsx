@@ -7,7 +7,6 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import Chip from '@mui/material/Chip';
-import { alpha } from '@mui/material/styles';
 
 const products = [
     {
